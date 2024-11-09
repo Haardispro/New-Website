@@ -1,76 +1,56 @@
 body{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Agave', sans-serif;
   margin: 15pt; 
   min-height: 100vh;
   margin-left: 10%;
   margin-right: 10%;
+  color: #fbf1c7;
+  background-color: #282828;
 }
-#quick-nav{
-  text-align: right;
-}
-.navbar{
-  height: fit-content;
-  width: 200px;
-  text-align: center;
-  background-color: beige;
-  
-}
-.navbar h4{
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-.navbar a{
-  text-align: center;
-  display: block;
-  padding: 10px;
-}
-.right_bar{
-  height: fit-content;
-  width: 200px;
-  text-align: center;
-  background-color: beige;
-  
-}
-.right_bar h4{
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-.right_bar a{
-  text-align: center;
-  display: block;
-  padding: 10px;
-}
-.main{
-  padding-top: 20px;
-  display: flex;
-  
-}
+
 img{
   width: 200px;
   height: 200px;
 }
+
 figcaption{
   text-align: center;
 }
+.main{
+  display: flex;
+  justify-content: center;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+}
+.intro{
+  display: flex;
+  justify-content: center;
+}
 .my_pic{
-  display: inline-block;
   width: min-content;
-  padding-left: 30px;
-  padding-right: 30px;
 }
-.write_up{
-  display: inline-block;
-  padding-right: 20px;
+.contact{
+  display: flex;
+  justify-content: center;
 }
-.updates{
-  padding-right: 20px;
+.links{
+  display: flex;
+  justify-content: center;
+  text-align: center; 
 }
-.footer{
-  text-align: center;
-  margin-top: 10px;
-  height: 100%;
-  width: 100%;
-  background-color: beige;
+.blog_heading{
+  display: flex;
+  justify-content: center;
+}
+.blogs{
+  display: flex;
+  justify-content: center;
+}
+a{
+  color: #689d6a;
+  padding: 10px;
 }
 footer{
   min-height: 50px;
